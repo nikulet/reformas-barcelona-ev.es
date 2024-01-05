@@ -301,7 +301,7 @@ span { font-weight: bold; color: #6e6d6d; }
   color: #0b0a0a;
 }
 
-.page-section { padding: 8rem 0; }
+.page-section { padding: 1rem 0; }
 
 #p {/* Cambiar de color y de medida a etiqueta P  en pagina en header de link index.html*/
   font-size: 35px; color: var(--bs-white-hex) !important; }

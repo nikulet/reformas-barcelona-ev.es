@@ -48,99 +48,20 @@ window.addEventListener('DOMContentLoaded', event => { /*  Inicio Evento addEven
         });
     });
 
-    var currentURL = window.location.href;
-
+    
+    var currentURL = window.location.href;  /*  INICIO  */
     if (currentURL.includes("Exitos-Proyectos-Reformas-Barcelona.html")) {
     // Activate SimpleLightbox plugin for portfolio items
-    document.getElementById("portfolio-box1").innerHTML += `
-                                <a class="portfolio-box1" href="../foto-Reformas-Barcelona-EV/bano-Reformas-Barcelona-EV/Reformas-Bano2.jpg" title="Proyecto Reforma BAÑO"></a>
-                                <a class="portfolio-box1" href="../foto-Reformas-Barcelona-EV/bano-Reformas-Barcelona-EV/Reformas-Bano3.jpg" title="Proyecto Reforma BAÑO"></a>
-                                <a class="portfolio-box1" href="../foto-Reformas-Barcelona-EV/bano-Reformas-Barcelona-EV/Reformas-Bano4.jpg" title="Proyecto Reforma BAÑO"></a>
-                                <a class="portfolio-box1" href="../foto-Reformas-Barcelona-EV/bano-Reformas-Barcelona-EV/Reformas-Bano5.jpg" title="Proyecto Reforma BAÑO"></a>
-                                <a class="portfolio-box1" href="../foto-Reformas-Barcelona-EV/bano-Reformas-Barcelona-EV/Reformas-Bano6.jpg" title="Proyecto Reforma BAÑO"></a>
-                                <a class="portfolio-box1" href="../foto-Reformas-Barcelona-EV/bano-Reformas-Barcelona-EV/Reformas-Bano7.jpg" title="Proyecto Reforma BAÑO"></a>
-                                <a class="portfolio-box1" href="../foto-Reformas-Barcelona-EV/bano-Reformas-Barcelona-EV/Reformas-Bano8.jpg" title="Proyecto Reforma BAÑO"></a>
-                                <a class="portfolio-box1" href="../foto-Reformas-Barcelona-EV/bano-Reformas-Barcelona-EV/Reformas-Bano9.jpg" title="Proyecto Reforma BAÑO"></a>
-                                <a class="portfolio-box1" href="../foto-Reformas-Barcelona-EV/bano-Reformas-Barcelona-EV/Reformas-Bano10.jpg" title="Proyecto Reforma BAÑO"></a>
-                                <a class="portfolio-box1" href="../foto-Reformas-Barcelona-EV/bano-Reformas-Barcelona-EV/Reformas-Bano11.jpg" title="Proyecto Reforma BAÑO"></a>
-                                <a class="portfolio-box1" href="../foto-Reformas-Barcelona-EV/bano-Reformas-Barcelona-EV/Reformas-Bano12.jpg" title="Proyecto Reforma BAÑO"></a>
-                                <a class="portfolio-box1" href="../foto-Reformas-Barcelona-EV/bano-Reformas-Barcelona-EV/Reformas-Bano13.jpg" title="Proyecto Reforma BAÑO"></a>
-                                <a class="portfolio-box1" href="../foto-Reformas-Barcelona-EV/bano-Reformas-Barcelona-EV/Reformas-Bano14.jpg" title="Proyecto Reforma BAÑO"></a>
-                                <a class="portfolio-box1" href="../foto-Reformas-Barcelona-EV/bano-Reformas-Barcelona-EV/Reformas-Bano15.jpg" title="Proyecto Reforma BAÑO"></a>
-                                <a class="portfolio-box1" href="../foto-Reformas-Barcelona-EV/bano-Reformas-Barcelona-EV/Reformas-Bano16.jpg" title="Proyecto Reforma BAÑO"></a>
-                                <a class="portfolio-box1" href="../foto-Reformas-Barcelona-EV/bano-Reformas-Barcelona-EV/Reformas-Bano17.jpg" title="Proyecto Reforma BAÑO"></a>
-                                <a class="portfolio-box1" href="../foto-Reformas-Barcelona-EV/bano-Reformas-Barcelona-EV/Reformas-Bano18.jpg" title="Proyecto Reforma BAÑO"></a>
-                                <a class="portfolio-box1" href="../foto-Reformas-Barcelona-EV/bano-Reformas-Barcelona-EV/Reformas-Bano19.jpg" title="Proyecto Reforma BAÑO"></a>
-                                <a class="portfolio-box1" href="../foto-Reformas-Barcelona-EV/bano-Reformas-Barcelona-EV/Reformas-Bano20.jpg" title="Proyecto Reforma BAÑO"></a>
-                                <a class="portfolio-box1" href="../foto-Reformas-Barcelona-EV/bano-Reformas-Barcelona-EV/Reformas-Bano21.jpg" title="Proyecto Reforma BAÑO"></a>
-                                <a class="portfolio-box1" href="../foto-Reformas-Barcelona-EV/bano-Reformas-Barcelona-EV/Reformas-Bano22.jpg" title="Proyecto Reforma BAÑO"></a>
-                                <a class="portfolio-box1" href="../foto-Reformas-Barcelona-EV/bano-Reformas-Barcelona-EV/Reformas-Bano23.jpg" title="Proyecto Reforma BAÑO"></a>
-                                <a class="portfolio-box1" href="../foto-Reformas-Barcelona-EV/bano-Reformas-Barcelona-EV/Reformas-Bano24.jpg" title="Proyecto Reforma BAÑO"></a>
-                                <a class="portfolio-box1" href="../foto-Reformas-Barcelona-EV/bano-Reformas-Barcelona-EV/Reformas-Bano25.jpg" title="Proyecto Reforma BAÑO"></a>
-                                <a class="portfolio-box1" href="../foto-Reformas-Barcelona-EV/bano-Reformas-Barcelona-EV/Reformas-Bano26.jpg" title="Proyecto Reforma BAÑO"></a>
-                                <a class="portfolio-box1" href="../foto-Reformas-Barcelona-EV/bano-Reformas-Barcelona-EV/Reformas-Bano27.jpg" title="Proyecto Reforma BAÑO"></a>`
+  
     new SimpleLightbox({ elements: '#portfolio a.portfolio-box1' });
     
-    document.getElementById("portfolio-box2").innerHTML += `
-                                <a class="portfolio-box2" href="../foto-Reformas-Barcelona-EV/cucina-Reformas-Barcelona-EV/Reformas-Cusina2.jpg" title="Proyecto Reforma COCINA"></a>
-                                <a class="portfolio-box2" href="../foto-Reformas-Barcelona-EV/cucina-Reformas-Barcelona-EV/Reformas-Cusina3.jpg" title="Proyecto Reforma COCINA"></a>
-                                <a class="portfolio-box2" href="../foto-Reformas-Barcelona-EV/cucina-Reformas-Barcelona-EV/Reformas-Cusina4.jpg" title="Proyecto Reforma COCINA"></a>
-                                <a class="portfolio-box2" href="../foto-Reformas-Barcelona-EV/cucina-Reformas-Barcelona-EV/Reformas-Cusina5.jpg" title="Proyecto Reforma COCINA"></a>
-                                <a class="portfolio-box2" href="../foto-Reformas-Barcelona-EV/cucina-Reformas-Barcelona-EV/Reformas-Cusina6.jpg" title="Proyecto Reforma COCINA"></a>
-                                <a class="portfolio-box2" href="../foto-Reformas-Barcelona-EV/cucina-Reformas-Barcelona-EV/Reformas-Cusina7.jpg" title="Proyecto Reforma COCINA"></a>
-                                <a class="portfolio-box2" href="../foto-Reformas-Barcelona-EV/cucina-Reformas-Barcelona-EV/Reformas-Cusina8.jpg" title="Proyecto Reforma COCINA"></a>
-                                <a class="portfolio-box2" href="../foto-Reformas-Barcelona-EV/cucina-Reformas-Barcelona-EV/Reformas-Cusina9.jpg" title="Proyecto Reforma COCINA"></a>
-                                <a class="portfolio-box2" href="../foto-Reformas-Barcelona-EV/cucina-Reformas-Barcelona-EV/Reformas-Cusina10.jpg" title="Proyecto Reforma COCINA"></a>
-                                <a class="portfolio-box2" href="../foto-Reformas-Barcelona-EV/cucina-Reformas-Barcelona-EV/Reformas-Cusina11.jpg" title="Proyecto Reforma COCINA"></a>
-                                <a class="portfolio-box2" href="../foto-Reformas-Barcelona-EV/cucina-Reformas-Barcelona-EV/Reformas-Cusina12.jpg" title="Proyecto Reforma COCINA"></a>
-                                <a class="portfolio-box2" href="../foto-Reformas-Barcelona-EV/cucina-Reformas-Barcelona-EV/Reformas-Cusina13.jpg" title="Proyecto Reforma COCINA"></a>
-                                <a class="portfolio-box2" href="../foto-Reformas-Barcelona-EV/cucina-Reformas-Barcelona-EV/Reformas-Cusina17.jpg" title="Proyecto Reforma COCINA"></a>
-                                <a class="portfolio-box2" href="../foto-Reformas-Barcelona-EV/cucina-Reformas-Barcelona-EV/Reformas-Cusina44.jpg" title="Proyecto Reforma COCINA"></a> `
     new SimpleLightbox({ elements: '#portfolio a.portfolio-box2' });
 
-    document.getElementById("portfolio-box3").innerHTML += `
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior1.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior2.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior3.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior4.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior5.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior6.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior7.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior8.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior9.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior10.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior11.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior12.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior13.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior14.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior15.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior16.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior17.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior18.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior19.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior20.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior21.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior22.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior23.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior24.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior25.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior26.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior27.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior28.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior29.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior30.jpg" title="Proyecto Reforma INTERIOR"></a>
-                                <a class="portfolio-box3" href="../foto-Reformas-Barcelona-EV/interior-Reformas-Barcelona-EV/Reforma-Interior31.jpg" title="Proyecto Reforma INTERIOR"></a> `
     new SimpleLightbox({ elements: '#portfolio a.portfolio-box3' });
 
-    document.getElementById("portfolio-box4").innerHTML += `
-                                <a class="portfolio-box4" href="../foto-Reformas-Barcelona-EV/exterior-Reformas-Barcelona-EV/Reformas-Exterior1.jpg" title="Proyecto Reforma EXTERIOR"></a>
-                                <a class="portfolio-box4" href="../foto-Reformas-Barcelona-EV/exterior-Reformas-Barcelona-EV/Reformas-Exterior2.jpg" title="Proyecto Reforma EXTERIOR"></a>
-                                <a class="portfolio-box4" href="../foto-Reformas-Barcelona-EV/exterior-Reformas-Barcelona-EV/Reformas-Exterior3.jpg" title="Proyecto Reforma EXTERIOR"></a>
-                                <a class="portfolio-box4" href="../foto-Reformas-Barcelona-EV/exterior-Reformas-Barcelona-EV/Reformas-Exterior4.jpg" title="Proyecto Reforma EXTERIOR"></a>
-                                <a class="portfolio-box4" href="../foto-Reformas-Barcelona-EV/exterior-Reformas-Barcelona-EV/Reformas-Exterior5.jpg" title="Proyecto Reforma EXTERIOR"></a>  `
     new SimpleLightbox({ elements: '#portfolio a.portfolio-box4' });
     }
-}); /*  FIN Evento addEventListener  */
+}); /*  FIN   */
 
 /*  Para barra de progreso  */
 window.addEventListener('load', () => {
@@ -153,9 +74,12 @@ function update() {
     requestAnimationFrame(update);
 }
 
-
+/* Inicio en caso si la URL es null (no esta en ninguna pagina web va a executar este codigo) */
+var currentURL = window.location.href;
+if (currentURL.includes("null")) {
 history.pushState(null, "", "index.html");  /* en caso si la url es www.reformas-barcelona-ev.es (es null) se va a
 anadir www.reformas-barcelona-eval.es/index.html/  */
+}  /* FIN en caso si la URL es null (no esta en ninguna pagina web va a executar este codigo) */
 
 /* Header cambio de IMG random */
 const images = [
