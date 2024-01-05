@@ -4,6 +4,14 @@
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
 */
 
+    new SimpleLightbox({ elements: '#portfolio a.portfolio-box1' });
+    
+    new SimpleLightbox({ elements: '#portfolio a.portfolio-box2' });
+
+    new SimpleLightbox({ elements: '#portfolio a.portfolio-box3' });
+
+    new SimpleLightbox({ elements: '#portfolio a.portfolio-box4' });
+
 /* Inicio en caso si la URL es null (no esta en ninguna pagina web va a executar este codigo) */
 var currentURL = window.location.href;
 if (currentURL.includes("null")) {
@@ -54,16 +62,11 @@ window.addEventListener('DOMContentLoaded', event => { /*  Inicio Evento addEven
             }
         });
     
-    new SimpleLightbox({ elements: '#portfolio a.portfolio-box1' });
-    
-    new SimpleLightbox({ elements: '#portfolio a.portfolio-box2' });
 
-    new SimpleLightbox({ elements: '#portfolio a.portfolio-box3' });
-
-    new SimpleLightbox({ elements: '#portfolio a.portfolio-box4' });
     });
 
 });
+
 
 
 /*  Para barra de progreso  */
