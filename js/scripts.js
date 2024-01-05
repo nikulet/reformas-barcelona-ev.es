@@ -46,13 +46,7 @@ window.addEventListener('DOMContentLoaded', event => { /*  Inicio Evento addEven
                 navbarToggler.click();
             }
         });
-    });
-
     
-    var currentURL = window.location.href;  /*  INICIO  */
-    if (currentURL.includes("Exitos-Proyectos-Reformas-Barcelona.html")) {
-    // Activate SimpleLightbox plugin for portfolio items
-  
     new SimpleLightbox({ elements: '#portfolio a.portfolio-box1' });
     
     new SimpleLightbox({ elements: '#portfolio a.portfolio-box2' });
@@ -60,8 +54,9 @@ window.addEventListener('DOMContentLoaded', event => { /*  Inicio Evento addEven
     new SimpleLightbox({ elements: '#portfolio a.portfolio-box3' });
 
     new SimpleLightbox({ elements: '#portfolio a.portfolio-box4' });
-    }
-}); /*  FIN   */
+    });
+
+});
 
 /*  Para barra de progreso  */
 window.addEventListener('load', () => {
