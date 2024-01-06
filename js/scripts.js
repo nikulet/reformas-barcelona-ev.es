@@ -231,8 +231,6 @@ document.getElementById("facebookICON").innerHTML += `
 <a id="facebookTexto" target="_blank" href="https://www.facebook.com/profile.php?id=100089800446369"> 
 Facebook</a></div></div> `
 
-var currentURL = window.location.href;
-    if (currentURL.includes("index.html")) {
-window.history.pushState({urlPath:'/index.html'},"",'/index.html')  /* en caso si la url es www.reformas-barcelona-ev.es (es null) se va a
-anadir www.reformas-barcelona-eval.es/index.html/  */
-    }
+if (window.location.href == null) {
+window.history.pushState(null, "", "index.html");
+}
