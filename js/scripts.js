@@ -196,7 +196,7 @@ imag.style.display = 'block';
 });
 
 setInterval(changeBackground, 1000);
-window.location.href("https://reformas-barcelona-ev.es/index.html");
+
 }
 
 const btn = document.getElementById('button');  /* Inicio Para enviar formulario a gmail  */
