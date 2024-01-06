@@ -230,19 +230,19 @@ document.getElementById("facebookICON").innerHTML += `
 <a id="facebookTexto" target="_blank" href="https://www.facebook.com/profile.php?id=100089800446369"> 
 Facebook</a></div></div> `
 
-/*
-let nuevaURL = '/index.html'; // La URL de destino.
-let espera   =  5; // La espera en segundos antes de ejecurtar la redirección.
 
-function paginaCargaCompleta(fn) {
-    if (document.readyState !== 'loading') {
-        fn();
-    } else {
-        document.addEventListener('DOMContentLoaded', fn);
-    }
-};
+// let nuevaURL = '/index.html'; // La URL de destino.
+// let espera   =  5; // La espera en segundos antes de ejecurtar la redirección.
 
-paginaCargaCompleta( function(){
-  	espera = parseInt(espera);
-    setTimeout('location.href="'+nuevaURL+'"', espera*1000);
-} );  */
+// function paginaCargaCompleta(fn) {
+//     if (document.readyState !== 'loading') {
+//         fn();
+//     } else {
+//         document.addEventListener('DOMContentLoaded', fn);
+//     }
+// };
+
+// paginaCargaCompleta( function(){
+//   	espera = parseInt(espera);
+//     setTimeout('location.href="'+nuevaURL+'"', espera*1000);
+// } );  
