@@ -172,7 +172,6 @@ var currentURL = window.location.href;
 
 if (currentURL.includes("index.html")) {
 // Estás en la página index.html
-  
 
 const imag = document.getElementById('fotoCarusel');
 let currentIndex = 0;
@@ -194,9 +193,7 @@ img.onload = () => {
 imag.style.display = 'block';
 };
 });
-
 setInterval(changeBackground, 1000);
-
 }
 
 const btn = document.getElementById('button');  /* Inicio Para enviar formulario a gmail  */
