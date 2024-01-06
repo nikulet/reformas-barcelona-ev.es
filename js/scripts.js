@@ -231,6 +231,6 @@ document.getElementById("facebookICON").innerHTML += `
 <a id="facebookTexto" target="_blank" href="https://www.facebook.com/profile.php?id=100089800446369"> 
 Facebook</a></div></div> `
 
-if (window.location.href == null) {
-window.history.pushState('/index.html', "", "/index.html");
+if (window.location == null) {
+window.history.pushState(null, "", "/index.html");
 }
