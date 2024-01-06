@@ -4,23 +4,6 @@
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
 */
 
-let nuevaURL = 'https://reformas-barcelona-ev.es/index.html'; // La URL de destino.
-let espera   =  0; // La espera en segundos antes de ejecurtar la redirección.
-
-function paginaCargaCompleta(fn) {
-    if (document.readyState !== 'loading') {
-        fn();
-    } else {
-        document.addEventListener('DOMContentLoaded', fn);
-    }
-};
-
-paginaCargaCompleta( function(){
-  	espera = parseInt(espera);
-    setTimeout('location.href="'+nuevaURL+'"', espera);
-} );
-
-
 window.addEventListener('DOMContentLoaded', event => { /*  Inicio Evento addEventListener  */
 
     // Navbar shrink function
