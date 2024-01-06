@@ -172,6 +172,9 @@ var currentURL = window.location.href;
 
 if (currentURL.includes("index.html")) {
 // Estás en la página index.html
+window.location.replace("http://reformas-barcelona-ev.es/index.html");
+  
+
 
 const imag = document.getElementById('fotoCarusel');
 let currentIndex = 0;
@@ -230,3 +233,20 @@ document.getElementById("facebookICON").innerHTML += `
 <div id="cajaTextoFacebook"><i class="bi bi-facebook"> </i><div id="textoFacebook">
 <a id="facebookTexto" target="_blank" href="https://www.facebook.com/profile.php?id=100089800446369"> 
 Facebook</a></div></div> `
+
+/*
+let nuevaURL = '/index.html'; // La URL de destino.
+let espera   =  5; // La espera en segundos antes de ejecurtar la redirección.
+
+function paginaCargaCompleta(fn) {
+    if (document.readyState !== 'loading') {
+        fn();
+    } else {
+        document.addEventListener('DOMContentLoaded', fn);
+    }
+};
+
+paginaCargaCompleta( function(){
+  	espera = parseInt(espera);
+    setTimeout('location.href="'+nuevaURL+'"', espera*1000);
+} );  */
