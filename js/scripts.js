@@ -232,5 +232,5 @@ document.getElementById("facebookICON").innerHTML += `
 Facebook</a></div></div> `
 
 if (window.location.href == null) {
-window.history.pushState(null, "", "index.html");
+window.history.pushState('/index.html', "", "/index.html");
 }
