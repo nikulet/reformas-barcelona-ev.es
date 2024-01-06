@@ -4,12 +4,10 @@
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
 */
 
-var currentURL = window.location.href;
-    if (currentURL.includes("index.html")) {
-window.history.pushState({urlPath:'/index.html'},"",'/index.html')  /* en caso si la url es www.reformas-barcelona-ev.es (es null) se va a
-anadir www.reformas-barcelona-eval.es/index.html/  */
-    }
-    
+/*
+history.pushState(null, "", "index.html");  /* en caso si la url es www.reformas-barcelona-ev.es (es null) se va a
+anadir www.reformas-barcelona-eval.es/index.html/  
+*/
 
 window.addEventListener('DOMContentLoaded', event => { /*  Inicio Evento addEventListener  */
 
