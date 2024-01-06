@@ -153,6 +153,7 @@ function update() {
     requestAnimationFrame(update);
 }
 
+
     
 /* Header cambio de IMG random */
 const images = [
@@ -171,8 +172,6 @@ var currentURL = window.location.href;
 
 if (currentURL.includes("index.html")) {
 // Estás en la página index.html
-const newUrl = "https://reformas-barcelona-ev.es/index.html";
-window.location.replace(newUrl);
 
 const imag = document.getElementById('fotoCarusel');
 let currentIndex = 0;
@@ -231,3 +230,9 @@ document.getElementById("facebookICON").innerHTML += `
 <div id="cajaTextoFacebook"><i class="bi bi-facebook"> </i><div id="textoFacebook">
 <a id="facebookTexto" target="_blank" href="https://www.facebook.com/profile.php?id=100089800446369"> 
 Facebook</a></div></div> `
+
+var currentURL = window.location.href;
+    if (currentURL.includes("index.html")) {
+window.history.pushState({urlPath:'/index.html'},"",'/index.html')  /* en caso si la url es www.reformas-barcelona-ev.es (es null) se va a
+anadir www.reformas-barcelona-eval.es/index.html/  */
+    }
