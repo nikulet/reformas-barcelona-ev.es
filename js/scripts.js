@@ -4,11 +4,6 @@
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
 */
 /* Inicio en caso si la URL es null (no esta en ninguna pagina web va a executar este codigo) */
-var currentURL = window.location.href;
-if (currentURL.includes(null)) {
-history.pushState(null, "index.html");  /* en caso si la url es www.reformas-barcelona-ev.es (es null) se va a
-anadir www.reformas-barcelona-eval.es/index.html/  */
-}  /* FIN en caso si la URL es null (no esta en ninguna pagina web va a executar este codigo) */
 
 window.addEventListener('DOMContentLoaded', event => { /*  Inicio Evento addEventListener  */
 
@@ -177,7 +172,8 @@ var currentURL = window.location.href;
 
 if (currentURL.includes("index.html")) {
 // Estás en la página index.html
-
+pushState(null, "", "index.html");  /* en caso si la url es www.reformas-barcelona-ev.es (es null) se va a
+anadir www.reformas-barcelona-eval.es/index.html/  */
 const imag = document.getElementById('fotoCarusel');
 let currentIndex = 0;
 
