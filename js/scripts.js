@@ -153,19 +153,20 @@ function update() {
     requestAnimationFrame(update);
 }
 
+
+var currentURL = window.location.href;
+    if (currentURL.includes("index.html")) {
 if( (navigator.userAgent.match(/Android/i)) || (navigator.userAgent.match(/webOS/i)) || 
 (navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPad/i)) || 
 (navigator.userAgent.match(/BlackBerry/i)) ){
-   var currentURL = window.location.href;
-    if (currentURL.includes("index.html")) {
 window.history.pushState({urlPath:'/index.html'},"",'/index.html')  /* en caso si la url es www.reformas-barcelona-ev.es (es null) se va a
 anadir www.reformas-barcelona-eval.es/index.html/  */
-    }}
+}
 else{ var currentURL = window.location.href;
-    if (currentURL.includes("index.html")) {
 window.history.pushState({urlPath:'/index.html'},"",'/index.html')  /* en caso si la url es www.reformas-barcelona-ev.es (es null) se va a
 anadir www.reformas-barcelona-eval.es/index.html/  */
-    }}
+    }
+}
 
     
 /* Header cambio de IMG random */
