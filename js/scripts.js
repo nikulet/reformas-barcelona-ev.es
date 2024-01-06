@@ -175,7 +175,6 @@ if (currentURL.includes("index.html")) {
 window.location.replace("http://reformas-barcelona-ev.es/index.html");
   
 
-
 const imag = document.getElementById('fotoCarusel');
 let currentIndex = 0;
 
