@@ -6,7 +6,7 @@
 
 var currentURL1 = window.location.href;
 
-    if (currentURL1.includes("/index.html")) {
+    if (currentURL1.includes("index.html")) {
 /* Din cauza lui nu lucreaza Exitos pozele */
 history.pushState(null, "", "index.html");  /* en caso si la url es www.reformas-barcelona-ev.es (es null) se va a
 anadir www.reformas-barcelona-eval.es/index.html/   */
