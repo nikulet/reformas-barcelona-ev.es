@@ -4,10 +4,13 @@
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
 */
 
+var currentURL1 = window.location.href;
 
+    if (currentURL1.includes("/index.html")) {
+/* Din cauza lui nu lucreaza Exitos pozele */
 history.pushState(null, "", "index.html");  /* en caso si la url es www.reformas-barcelona-ev.es (es null) se va a
 anadir www.reformas-barcelona-eval.es/index.html/   */
-
+    }
 
 window.addEventListener('DOMContentLoaded', event => { /*  Inicio Evento addEventListener  */
 
@@ -234,20 +237,3 @@ document.getElementById("facebookICON").innerHTML += `
 <div id="cajaTextoFacebook"><i class="bi bi-facebook"> </i><div id="textoFacebook">
 <a id="facebookTexto" target="_blank" href="https://www.facebook.com/profile.php?id=100089800446369"> 
 Facebook</a></div></div> `
-
-
-// let nuevaURL = '/index.html'; // La URL de destino.
-// let espera   =  5; // La espera en segundos antes de ejecurtar la redirección.
-
-// function paginaCargaCompleta(fn) {
-//     if (document.readyState !== 'loading') {
-//         fn();
-//     } else {
-//         document.addEventListener('DOMContentLoaded', fn);
-//     }
-// };
-
-// paginaCargaCompleta( function(){
-//   	espera = parseInt(espera);
-//     setTimeout('location.href="'+nuevaURL+'"', espera*1000);
-// } );  
